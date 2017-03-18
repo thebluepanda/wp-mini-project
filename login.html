@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>home</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<div class="container">
+
+<header > 
+
+<a href="main.html" class="topl">	<h1>M-LIFE</h1><br></a>
+	<h2><em>Experience Maharastra like home</em></h2>
+</header>
+
+<nav>
+<div class="buttongrp"></div>
+<button onclick="tab1()"  class="tab">cities</button>
+
+<button onclick="tab2()"  class="tab">aboutus</button>
+
+<button onclick="tab3()"  class="tab">Support</button>
+
+<button onclick="tab4()"  class="tab">Hillstations/trecks</button>
+
+
+
+</nav>
+	
+
+<hr>
+
+<form>
+	username<input type="text" name="username" id="username"><br> <br> <br>
+	password<input type="password" name="Password" id="password"><br><br><br>
+	<Br> <Br>
+	<input type="button" onclick="login()" value="login" name="login" >
+
+
+</form>
+<br> 
+
+<br>
+<br>
+<footer>
+
+<img src="sbmp.png" class="footer">
+<img src="w3s.png" class="footer">
+<img src="5.png"  class="footer" >
+<img src="CSS3.png" class="footer">
+<BR>
+<BR>
+
+
+<H6>
+		COPYRIGHTS &copy M-LIFE
+</H6>
+
+
+</footer>
+
+
+	
+
+
+
+</div>
+
+<script type="text/javascript">
+
+function tab1()
+{
+window.location='cities.html';
+
+}
+
+function tab2()
+{
+window.location='aboutus.html';
+}
+function tab3()
+{
+window.location='support.html';
+}
+
+function tab4(){
+window.location='jobs.html';
+	
+
+	}
+
+function login()
+{
+	var a=document.getElementById("username").value;
+	 var b=document.getElementById("password").value;
+
+    if(a=="" )
+    {
+         alert("enter username");
+    }
+
+}
+  
+		
+</script>
+
+
+
+
+</body>
+</html>
